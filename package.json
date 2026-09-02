@@ -2,6 +2,27 @@
   "name": "pospal-sdk",
   "version": "0.1.0",
   "description": "Node.js SDK for the PosPal Open Platform API",
+  "keywords": [
+    "pospal",
+    "银豹",
+    "openapi",
+    "sdk",
+    "nodejs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/labacacia/pospal-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/labacacia/pospal-sdk/issues"
+  },
+  "homepage": "https://github.com/labacacia/pospal-sdk#readme",
+  "files": [
+    "src",
+    "docs",
+    "README.md",
+    "LICENSE"
+  ],
   "type": "module",
   "main": "./src/index.js",
   "types": "./src/index.d.ts",
@@ -12,6 +33,9 @@
     }
   },
   "engines": { "node": ">=18" },
-  "scripts": { "test": "node --test" },
+  "scripts": {
+    "test": "node --test",
+    "prepublishOnly": "npm test"
+  },
   "license": "MIT"
 }

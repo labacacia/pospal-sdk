@@ -8,7 +8,11 @@
 
 ## 安装
 
-发布到 npm 前可直接从 GitHub 安装：
+```bash
+npm install pospal-sdk
+```
+
+也可以直接使用仓库的最新版本：
 
 ```bash
 npm install github:labacacia/pospal-sdk

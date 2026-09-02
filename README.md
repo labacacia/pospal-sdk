@@ -1,6 +1,7 @@
 # pospal-sdk
 
 [![Node.js 18+](https://img.shields.io/badge/node-%3E%3D18-339933?logo=nodedotjs&logoColor=white)](https://nodejs.org/)
+[![npm](https://img.shields.io/npm/v/pospal-sdk?logo=npm)](https://www.npmjs.com/package/pospal-sdk)
 
 银豹 PosPal Open Platform 的零依赖 Node.js SDK。把签名、时间戳、异常处理这些破事儿收起来，调用接口只管传文档里的业务 body 就行。。。。
 
@@ -11,6 +12,8 @@
 ```bash
 npm install pospal-sdk
 ```
+
+当前发布版本为 [`0.1.0`](https://www.npmjs.com/package/pospal-sdk)，后续正常按 npm 的 `latest` tag 更新即可。
 
 也可以直接使用仓库的最新版本：
 
